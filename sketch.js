@@ -40,8 +40,6 @@ function setup() {
 }
 
 function draw() {
-
-
   background(158, 245, 252);
   ground.show();
 
