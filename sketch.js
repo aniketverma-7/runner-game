@@ -23,8 +23,7 @@ function preload(){
 }
 
 function setup() {
-  // createCanvas(800, 500);
-  fullscreen(true);
+  createCanvas(windowWidth, windowHeight);
   ground = new Ground();
   stone = new Stone(width+20);
   stone2 = new Stone(width+width/2+20);
